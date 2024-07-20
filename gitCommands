@@ -1,0 +1,40 @@
+git init
+git status
+git add
+git commit -m "..."
+git log
+git config --global user.name "nome"
+git config --global user.email "email@gmail.com"
+git diff
+git remote add origin https://github.com/<seu-usuario>/<seu-repo>.git
+git remote -v
+git push -u origin main
+git push
+git clone <url>
+git branch
+git checkout -b <nome da branch>
+git checkout <nome da branch>
+git pull
+git merge
+git rebase
+git pull --rebase
+git rebase --continue
+git stash
+git stash list
+git stash pop
+git reset --soft 
+git reset
+git reset --hard
+git commit --amend
+git commit --amend --no-edit
+git clean -n
+git clean -f
+git tag
+git tag <versao ou nome>
+git tag <versao ou nome> -m <descricao>
+git tag -n
+git push origin <nome do tag>
+git push origin --tags
+git remote -v
+git remote add <upstream> <url do repo>
+git pull <upstream> <main> --rebase
